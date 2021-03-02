@@ -1,0 +1,11 @@
+
+node_modules
+docs
+scripts
+src
+.eslintignore
+.eslintrc.js
+.gitignore
+.prettierignore
+.prettierrc.js
+tsconfig.json

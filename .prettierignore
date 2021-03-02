@@ -1,0 +1,9 @@
+# Ignore artifacts:
+dist
+docs
+node_modules
+.eslintignore
+.eslintrc.js
+.gitignore
+.npmignore
+.prettierrc.js
