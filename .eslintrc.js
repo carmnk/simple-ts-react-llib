@@ -8,7 +8,7 @@ module.exports = {
         ecmaVersion: 2020,
         sourceType: "module"
     },
-    extends: [ 
+    extends: [
         "plugin:react/recommended",
         //"plugin:@typescript-eslint/recommended",
         //"prettier/@typescript-eslint",

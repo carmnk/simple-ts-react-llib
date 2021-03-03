@@ -1,8 +1,7 @@
-import React, { useState } from "react";
+import React, { ReactNode, useState, ReactElement } from "react";
 
-const Home = (props: any) => {
-  const [ab] = useState(null);
+const Home = (props: { children?: ReactNode }): ReactElement => {
+  const [ab, abc] = useState(null);
   return <div>HOME</div>;
 };
 export default Home;
-export { Home };
