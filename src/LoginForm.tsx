@@ -8,6 +8,10 @@ export interface Props {
   onSubmit: (username: string, password: string, remember: boolean) => void;
 }
 
+/**
+ * Login Form
+ * @docu
+ */
 const LoginForm = (props: Props) => {
   const [username, setUsername] = React.useState("");
   const [password, setPassword] = React.useState("");
